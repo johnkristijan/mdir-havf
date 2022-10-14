@@ -1,0 +1,31 @@
+{
+  "name": "havf",
+  "version": "1.0.0",
+  "description": "tool to fetch data from the vannmiljo database (activityId=havf) and transform data to PowerBI friendly format",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_NO_WARNINGS=1 node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkristijan/mdir-havf.git"
+  },
+  "keywords": [
+    "havf",
+    "mdir"
+  ],
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "author": "Webstep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkristijan/mdir-havf/issues"
+  },
+  "homepage": "https://github.com/johnkristijan/mdir-havf#readme"
+}
